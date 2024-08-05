@@ -1,0 +1,33 @@
+{
+  "name": "newapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=local.env && nodemon --max-old-space-size=4096 index.js",
+    "prod": "set NODE_ENV=production.env && nodemon --max-old-space-size=4096 index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "xlsx": "^0.18.5",
+    "xlsx-populate": "^1.21.0"
+  },
+  "devDependencies": {
+    "prettier": "3.1.1"
+  }
+}
